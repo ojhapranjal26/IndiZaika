@@ -1,0 +1,265 @@
+.menu-item:hover {
+    color: blueviolet;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+  }
+
+  .nav-link:hover {
+    background-color: red;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-collapse {
+    justify-content: right;
+    margin-left: 20px;
+  }
+
+  .home-section {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: whitesmoke;
+    text-align: center;
+    padding: 150px 0;
+  }
+
+  .home-section h1 {
+    font-size: 3rem;
+  }
+
+  .home-section p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .review-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .list-group-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .list-group-item img {
+    margin-right: 10px;
+  }
+  /* Ensure images do not affect the size of the card */
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Fixed height for all images */
+  object-fit: cover; /* Cover the container without stretching */
+}
+
+/* Ensure card height is consistent */
+.card {
+  height: 100%; /* Make card height consistent */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Prevent the card body from stretching */
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+  
+  footer h5 {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer .text-white {
+    color: #ffffff !important;
+  }
+  
+  footer .me-3 {
+    margin-right: 1rem;
+  }
+  
+  footer .fa-facebook-f, 
+  footer .fa-twitter, 
+  footer .fa-instagram, 
+  footer .fa-linkedin-in {
+    font-size: 1.5rem;
+  }
+  
+  footer .text-center p {
+    margin: 0;
+  }
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .map {
+    height: 400px;
+    width: 100%;
+    margin: 30px 0;
+  }
+
+  .contact-info {
+    margin-top: 30px;
+  }
+
+  .contact-info h4 {
+    margin-bottom: 20px;
+  }
+
+  .contact-info .info-item {
+    margin-bottom: 15px;
+  }
+
+  .contact-info .info-item i {
+    margin-right: 10px;
+  }
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #333;
+  }
+
+  .login-container .form-control {
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .login-container .btn-primary {
+    background-color: #ff5722;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .login-container .btn-primary:hover {
+    background-color: #e64a19;
+  }
+
+  .login-container .forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    color: #ff5722;
+    text-decoration: none;
+  }
+
+  .login-container .forgot-password:hover {
+    text-decoration: underline;
+  }
+
+  .login-container .form-check-input {
+    margin-top: 0.3rem;
+  }
+
+  .login-container .form-check-label {
+    margin-left: 5px;
+    color: #333;
+  }
+  .about-section {
+    background: #f8f9fa;
+    padding: 60px 0;
+    position: relative;
+  }
+
+ 
+
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .about-section p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .about-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .about-image-card {
+    flex: 1;
+    min-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .about-image-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .about-image-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-image-card:hover img {
+    transform: scale(1.1);
+  }
+
+  .about-image-card .card-body {
+    padding: 15px;
+    background: white;
+    transition: background-color 0.3s ease;
+  }
+
+  .about-image-card:hover .card-body {
+    background-color: #f8f9fa;
+  }
+
+  .about-image-card .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .about-image-card .card-text {
+    font-size: 1rem;
+  }
